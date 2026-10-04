@@ -1,0 +1,8 @@
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test
+
+nc: 2
+names:
+  0: brainless-pete
+  1: housebot

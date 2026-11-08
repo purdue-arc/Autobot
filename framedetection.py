@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-VIDEO_PATH = r"C:\code\arc\AutoBots\autobot\HueyvOpenHELL_OVERHEAD-ORIGINAL.mp4"
+VIDEO_PATH = r"C:\code\arc\AutoBots\autobot\Huey-vs-OpenHELL-3lb-OVERHEAD-360p.mp4"
 FRAME_NUMBER = 10    # which frame to grab (1 = first frame of the video)
-SCALE = 0.5          # display size: 0.5 = half of the original video size
+SCALE = 1.5          # display size: 0.5 = half of the original video size
 GRAB_RADIUS = 20     # how close (in pixels) you must click to grab a corner
 
 # Start from the full frame, or paste a saved shape here (scaled pixels), e.g.

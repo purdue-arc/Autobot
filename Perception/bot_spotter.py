@@ -18,7 +18,7 @@ def main():
 
             bw_output = camera.requestOutput(
                 (640, 480),
-                type=dai.ImgFrame.Type.GRAY8,
+                type=dai.ImgFrame.Type.RGB888i,
             )
             output_queue = bw_output.createOutputQueue()
 

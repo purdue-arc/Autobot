@@ -42,7 +42,7 @@ first_gray = cv.cvtColor(first_frame, cv.COLOR_BGR2GRAY)
 # Cover corners of the video
 # ORDER IS IMPORTANT, Go top left -> top right -> bottom right -> bottom left
 # Clockwise order
-src = pick_points(first_frame).reshape(-1, 1, 2)
+src = pick_points(first_frame)
 dst = np.float32([[0, 0],                     # Top left
                 [out_w - 1, 0],             # Top right
                 [out_w - 1, out_h - 1],     # Bottom right
